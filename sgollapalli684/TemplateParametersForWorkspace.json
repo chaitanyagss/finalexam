@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "sgollapalli684"
+		},
+		"ProfMadhuStorage_connectionString": {
+			"value": ""
+		},
+		"sgollapalli684-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:sgollapalli684.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"sgollapalli684-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://sgollapalli684.dfs.core.windows.net"
+		}
+	}
+}
